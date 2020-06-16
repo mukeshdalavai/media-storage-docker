@@ -8,6 +8,7 @@ services:
     restart: always
     ports:
       - 4200:4200
+    entrypoint: ["http-server","-c1","-p","80"]
       
   storage-service:
     image: dmk0062/media-storage-service:1.0
