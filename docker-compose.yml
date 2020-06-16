@@ -7,7 +7,7 @@ services:
     # build: ./ui
     restart: always
     ports:
-      - 4200:4200
+      - 80:80
     entrypoint: ["http-server","-c1","-p","80"]
       
   storage-service:
