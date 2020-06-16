@@ -7,7 +7,7 @@ services:
     # build: ./ui
     restart: always
     ports:
-      - 80:80
+      - 4200:4200
       
   storage-service:
     image: dmk0062/media-storage-service:1.0
